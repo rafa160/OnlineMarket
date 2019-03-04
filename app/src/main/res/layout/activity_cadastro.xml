@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/cadastroNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:background="@drawable/border_style"
+        android:drawableLeft="@drawable/users"
+        android:drawablePadding="5dp"/>
+
+    <EditText
+        android:id="@+id/cadastroEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cadastroNome"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_style"
+        android:hint="E-mail"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="5dp"/>
+
+    <EditText
+        android:id="@+id/cadastroTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cadastroEmail"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_style"
+        android:hint="Telefone"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="5dp"/>
+
+    <EditText
+        android:id="@+id/cadastroSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cadastroTelefone"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_style"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/key"
+        android:drawablePadding="5dp" />
+
+    <EditText
+        android:id="@+id/cadastroConfSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cadastroSenha"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_style"
+        android:hint="Confirmação de Senha"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/key"
+        android:drawablePadding="5dp"/>
+
+    <Button
+        android:id="@+id/CadastroSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cadastroConfSenha"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:hint="Salvar" />
+
+
+
+
+</RelativeLayout>
