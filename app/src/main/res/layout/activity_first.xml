@@ -44,7 +44,7 @@
         android:drawablePadding="5dp"/>
 
     <Button
-        android:id="@+id/bottomLogin"
+        android:id="@+id/buttomLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/password"
@@ -55,7 +55,7 @@
         android:id="@+id/primeiroAcesso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/bottomLogin"
+        android:layout_below="@+id/buttomLogin"
         android:hint="PRIMEIRO ACESSO?"
         android:textStyle="italic"
         />
