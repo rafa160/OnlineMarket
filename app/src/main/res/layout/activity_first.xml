@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/logoMercado"
-        android:layout_width="361dp"
-        android:layout_height="239dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="1dp"
@@ -59,59 +59,6 @@
         android:hint="PRIMEIRO ACESSO?"
         android:textStyle="italic"
         />
-
-    <ImageButton
-        android:id="@+id/instagram"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_below="@+id/primeiroAcesso"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="454dp"
-        android:layout_marginBottom="1dp"
-        android:background="@color/white"
-        android:scaleType="fitCenter"
-        android:src="@drawable/insta" />
-
-    <ImageButton
-        android:id="@+id/fb"
-        android:layout_width="94dp"
-        android:layout_height="84dp"
-        android:layout_below="@+id/primeiroAcesso"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="142dp"
-        android:layout_marginLeft="142dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="148dp"
-        android:layout_marginRight="148dp"
-        android:background="@color/white"
-        android:scaleType="fitCenter"
-        android:src="@drawable/facebook" />
-
-    <ImageButton
-        android:id="@+id/twitter"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_below="@+id/primeiroAcesso"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="281dp"
-        android:layout_marginLeft="281dp"
-        android:layout_marginTop="24dp"
-        android:background="@color/white"
-        android:scaleType="fitCenter"
-        android:src="@drawable/twitter" />
-
-
-
-
-
 
 
 </RelativeLayout>

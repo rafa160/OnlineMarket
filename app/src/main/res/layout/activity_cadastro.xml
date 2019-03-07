@@ -7,6 +7,19 @@
     tools:context=".CadastroActivity"
     android:orientation="vertical">
 
+
+    <EditText
+        android:id="@+id/nomeMercado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/border_style"
+        android:drawableLeft="@drawable/mercado"
+        android:drawablePadding="5dp"
+        android:hint="Nome do Mercado" />
+
     <EditText
         android:layout_marginTop="100dp"
         android:id="@+id/cadastroNome"
@@ -54,26 +67,13 @@
         android:drawableLeft="@drawable/key"
         android:drawablePadding="5dp" />
 
-    <EditText
-        android:id="@+id/cadastroConfSenha"
+
+
+    <Button
+        android:id="@+id/cadastroSalvar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/cadastroSenha"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/border_style"
-        android:hint="Confirmação de Senha"
-        android:inputType="textPassword"
-        android:drawableLeft="@drawable/key"
-        android:drawablePadding="5dp"/>
-
-    <Button
-        android:id="@+id/CadastroSalvar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/cadastroConfSenha"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentLeft="true"
