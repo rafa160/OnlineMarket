@@ -24,7 +24,11 @@
         <activity
             android:name=".CadastroActivity"
             android:label="Cadastro de Mercado" />
-        <activity android:name=".MercadoActivity"></activity>
+        <activity
+            android:name=".MercadoActivity"
+            android:label="Mercado Online">
+
+        </activity>
     </application>
 
 </manifest>
